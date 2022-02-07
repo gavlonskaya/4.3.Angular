@@ -5,7 +5,7 @@ import { Card } from "src/app/model/card.model";
 @Injectable({
   providedIn: 'root'
 })
-export class CardsService{
+export class CardService{
   private products: Card[] = cardMock;
 
   getCards(): Card[]{
