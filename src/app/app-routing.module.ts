@@ -7,6 +7,7 @@ import { BasketGuard } from './guards/basket.guard';
 
 const routes: Routes = [
   {path: 'basket', component: BasketComponent, canActivate: [BasketGuard]},
+  {path: '**', component: PageNotFoundComponent}
 ];
 
 @NgModule({
