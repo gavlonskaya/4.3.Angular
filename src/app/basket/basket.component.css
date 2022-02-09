@@ -10,9 +10,9 @@
     overflow-y: hidden;
     overflow-x: hidden;
     transition: all 0.7s ease 0s;
+    
   }
   .popup-body {
-    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -23,6 +23,8 @@
     align-items: center;
     justify-content: center;
     padding: 30px 10px;
+    display:flex;
+
   }
   .popup:target {
     opacity: 1;
@@ -69,4 +71,15 @@
     font: 12pt 'Arial';
     color: black;
     text-align: right;
+  }
+  .checkout{
+    width: 150px;
+    height: 50px;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    font: 17pt 'Arial';
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
