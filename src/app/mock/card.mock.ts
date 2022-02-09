@@ -28,22 +28,14 @@ export const cardMock: Card[] = [
   },
   {
     id: 4,
-    img:  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/b/l/black-opium-eau-de-parfum-intense-main.png',
-    title: 'BLACK OPIUM EAU DE PARFUM',
+    img:  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/b/o/bo-illicit-green_3614273642897_1_-min.jpg',
+    title: 'BLACK OPIUM ILLICIT GREEN',
     section: 'ПАРФЮМЕРНАЯ ВОДА',
-    price: '5 127 р.',
+    price: '4 837 р.',
     detail: 'Подробнее',
   },
   {
     id: 5,
-    img: 'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/b/l/black-opium-eau-de-parfum-neon-main.png',
-    title: 'BLACK OPIUM NEON',
-    section:  'ПАРФЮМЕРНАЯ ВОДА',
-    price:  '8 100 р.',
-    detail: 'Подробнее',
-  },
-  {
-    id: 6,
     img: 'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/w/w/ww-50790ysl-main-packshot_1.jpg',
     title: 'BLACK OPIUM EAU DE PARFUM LIMITED EDITION BOTTLE',
     section: 'ПАРФЮМЕРНАЯ ВОДА ЛИМИТИРОВАННАЯ ВЕРСИЯ',
@@ -51,7 +43,7 @@ export const cardMock: Card[] = [
     detail: 'Подробнее',
   },
   {
-    id: 7,
+    id: 6,
     img:  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/o/p/opium-main.jpg',
     title: 'OPIUM',
     section: 'ПАРФЮМЕРНАЯ ВОДА',
@@ -59,15 +51,7 @@ export const cardMock: Card[] = [
     detail: 'Подробнее',
   },
   {
-    id: 8,
-    img:  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/b/l/black-opium-promo-main.png',
-    title:   'BLACK OPIUM EAU DE PARFUM YSL',
-    section:   'ПАРФЮМЕРНАЯ ВОДА',
-    price:   '4 837 р.',
-    detail:'Подробнее' ,
-  },
-  {
-    id: 9,
+    id: 7,
     img: 'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/s/e/set_4.jpg',
     title:  'BLACK OPIUM DARK ICONS',
     section:   'ПОДАРОЧНЫЙ НАБОР',
@@ -75,7 +59,7 @@ export const cardMock: Card[] = [
     detail: 'Подробнее',
   },
   {
-    id: 10,
+    id: 8,
     img:  'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/3/6/3614273620468.jpg',
     title:  'FRAGRANCE ICONS',
     section: 'ПОДАРОЧНЫЙ НАБОР',
@@ -83,20 +67,12 @@ export const cardMock: Card[] = [
     detail: 'Подробнее',
   },
   {
-    id: 11,
+    id: 9,
     img: 'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/3/6/3614273610575.jpg',
     title:  'DANCE ALL NIGHT',
     section: 'ПОДАРОЧНЫЙ НАБОР',
     price:  '4 837 р.',
     detail: 'Подробнее',
-  },
-  {
-    id: 12,
-    img: 'https://yslbeauty.com.ru/media/catalog/product/cache/88836f485742952bf5e52c5c259bc291/3/6/3614273609852.jpg',
-    title:  'YOUR COLOR, YOUR CHARACTER',
-    section:  'ПОДАРОЧНЫЙ НАБОР',
-    price:  '2 700 р.',
-    detail: 'Подробнее',
-  },
+  }
 ];
 
