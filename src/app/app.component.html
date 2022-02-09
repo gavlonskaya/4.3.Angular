@@ -1,5 +1,5 @@
 <div class="png">
-  <img src="https://yslbeauty.com.ru/static/version1633525595/frontend/Ewave/ysl/ru_RU/images/logo.svg"/>
+  <img src="https://yslbeauty.com.ru/static/version1633525595/frontend/Ewave/ysl/ru_RU/images/logo.svg"alt="Логотип">>
 </div>
 <app-menu></app-menu>
 <app-header></app-header>
@@ -10,5 +10,6 @@
                 [card]="product"
       ></app-card>
   </section>
+  <app-basket *ngIf="basketService.showOpenBasket()"></app-basket>
 </main>
 <app-footer></app-footer>

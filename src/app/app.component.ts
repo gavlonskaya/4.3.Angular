@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Card } from "src/app/model/card.model";
-import { CardsService } from "src/app/service/card.service";
+import { CardService } from "src/app/service/card.service";
+import { BasketService } from './service/basket.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,7 +9,8 @@ import { CardsService } from "src/app/service/card.service";
 })
 export class AppComponent {
   products: Card[];
-  constructor(protected cardsService: CardsService) {
-    this.products = cardsService.getCards();
+  constructor(protected cardService: CardService,
+    public basketService: BasketService) {
+    this.products = cardService.getCards();
   }
 }

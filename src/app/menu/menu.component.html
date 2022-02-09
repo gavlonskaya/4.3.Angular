@@ -7,13 +7,12 @@
       <input type="search" placeholder="Искать здесь..." > 
      </form>
     <div class="basket">
-      <a class="basket-link" href="#popup"
-        ><img
+      <a class="basket-link"
+      (click)="basketService.openBasket()">
+        <img
           class="basket-img"
-          src="https://i.pinimg.com/564x/ea/bc/62/eabc62ca9a760cbb80ff61ecfd642589.jpg"
+          src="https://i.pinimg.com/564x/ea/bc/62/eabc62ca9a760cbb80ff61ecfd642589.jpg"alt="Корзина">
           width="50"
-          id="menu-basket"
-          onclick="open_basket();"
-      /></a>
+          id="menu-basket"></a>
     </div>
   </nav>

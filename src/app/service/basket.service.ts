@@ -16,3 +16,12 @@ export class BasketService{
     return this.toBasket;
   }
 }
+openBasket():void{
+  this.isOpenBasket = true;
+}
+closeBasket():void{
+  this.isOpenBasket = false;
+}
+showOpenBasket():boolean{
+  return this.isOpenBasket;
+}

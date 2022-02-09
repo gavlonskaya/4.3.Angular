@@ -2,19 +2,19 @@
       <div class="popup-body">
         <div class="popup-content">
           <a
-            href="#"
             class="popup-close"
             id="popup-close"
-            onclick="_basket()">х
+            onclick="basketService.closeBasket()">х
           </a>
           <div class="popup-title">Ваш заказ:</div>
           <div *ngIf="cartData.length else emptyTemplate" class="popup-list">
-              <ul>
-                <li class="popup-name"></li>
-                <span class="popup-price"></span>
+              <ng-container *ngFor="let product of cartData">
+            <ul>
+                <li class="popup-name">{{product.title}}</li>
+                <span class="popup-price">{{product.price}}</span>
               </ul>
+              </ng-container>
           </div>
-          <a href="#" class="popup-close" onclick="_basket()"></a>
           <button class="checkout">Заказать</button>
         </div>
       </div>

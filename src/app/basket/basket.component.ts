@@ -4,14 +4,13 @@ import { Card } from 'src/app/model/card.model';
 import { BasketService } from 'src/app/service/basket.service';
 
 @Component({
-  selector: 'app-cart',
+  selector: 'app-basket',
   templateUrl: './basket.component.html',
   styleUrls: ['./basket.component.css']
 })
 export class BasketComponent implements OnInit {
-  cards:Card[] = cardMock;
   cartData: Card[]= [];
-  constructor(private basketService: BasketService) { }
+  constructor(public basketService: BasketService) { }
 
   ngOnInit(): void {
   this.cartData = this.basketService.getCartData();
