@@ -6,16 +6,15 @@ import { Card } from "src/app/model/card.model";
   providedIn: 'root'
 })
 export class BasketService{
+  private isOpenBasket: boolean=false;
   private toBasket: Card[]=[];
 
   moveToCart(buyCard: Card): void{
-    this.toBasket.push({...buyCard, buy: true});
-      
+    this.toBasket.push({...buyCard, buy: true});   
   }
   getCartData(): Card[]{
     return this.toBasket;
   }
-}
 openBasket():void{
   this.isOpenBasket = true;
 }
@@ -24,4 +23,5 @@ closeBasket():void{
 }
 showOpenBasket():boolean{
   return this.isOpenBasket;
+}
 }
